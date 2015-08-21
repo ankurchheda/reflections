@@ -1,0 +1,4 @@
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+staging area is between working directory and repository. when you add multiple files using git add they are loaded in staging area. from staging area they all can
+be committed simultaneously.
+
