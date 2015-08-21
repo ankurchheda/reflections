@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+diff function helps in finding differences between two files. so if we have a file with proper
+code we can use it to finnd bug in other files.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+if the changes made in the file are not suitable or sommehow it gets corrupted,we can easily restore  to previous 
+version and get our problems sorted.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+manual-
+pros
+commit with your own choice
+not committiing after evry change
+cons
+had to find excat time to commit(logical time)
+auto
+pros
+no worry about committing
+cons
+to many commits can cause difficulty in recovering previous changes
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+saving all files at one commit can help  when all files are co related and it is like taking snapshot at that time.  if only 1 file changes are done redundancy may increease but its okay
+
+How can you use the commands git log and git diff to view the history of files?
+git log can be used to see changes made while git diff can be used to see what differences are done and also the location of changes made.
+
+How might using version control make you more confident to make changes that could break something?
+even if new version introduces bug in the program, we can easily restore to our older version and get back the original working file
+
+Now that you have your workspace set up, what do you want to try using Git for?
+version control
+
+What happens when you initialize a repository? Why do you need to do it?
+git init is used to initialize  git repository,at beginning zero commits are there, git status is used to see status of git . git repository is created to track the changes in you files.
